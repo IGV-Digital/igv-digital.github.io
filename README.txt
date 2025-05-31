@@ -1,35 +1,55 @@
-Landed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# IGV Digital 🌐
 
+**IGV Digital** es un sitio web profesional que presenta el portafolio, los servicios y la visión de un desarrollador de software enfocado en soluciones móviles, diseño UI/UX y tecnología aplicada a la seguridad laboral y digitalización de procesos.
 
-A dark, slick, modern, responsive, adjective-drenched design built around an extremely
-dynamic landing page (scroll that mofo!). Inspired by Big Picture, another design
-of mine with a similarish feel/flow, only this time I took it waaaaaay further and
-actually made it multipurpose (versus copping out and making it a one pager like I
-did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
-its Sass sources.
+Este proyecto se basa en la plantilla [Landed](https://html5up.net/landed) de HTML5 UP, personalizada con contenido propio, estilo corporativo y secciones como: Misión, Servicios, Contacto y Política de Privacidad.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+---
 
-(* = Not included)
+## 📁 Estructura del Proyecto
+├── assets/
+│ ├── css/
+│ ├── js/
+│ └── webfonts/
+├── images/
+├── index.html
+├── contact.html (opcional)
+├── privacy.html (Política de privacidad)
+└── README.md
+---
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+## 🚀 Características del sitio
 
-AJ
-aj@lkn.io | @ajlkn
+- Sitio web responsivo y ligero
+- Paleta personalizada con tonos oscuros y acentos azules
+- Secciones informativas: Misión, Visión, Servicios, Contacto
+- Política de privacidad adaptada para apps publicadas en Google Play
+- Ideal para portafolio de desarrollador y presencia digital
 
+---
 
-Credits:
+## 📌 Tecnologías utilizadas
 
-	Demo Images:
-		Unsplash (unsplash.com)
+- HTML5 + CSS3
+- JavaScript
+- [HTML5 UP – Landed Template](https://html5up.net/landed)
+- Visual Studio Code (para edición)
+- GitHub Pages (para publicación)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+---
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## 📞 Contacto
+
+Si deseas colaborar o contratar algún servicio:
+
+- 💌 Email: igv.developer@gmail.com   
+- 🌐 Web: [https://igvdigital.com](https://igvdigital.com) *(opcional)*  
+- 🛠 GitHub: [github.com/igvdigital](https://github.com/igvdigital) *(ajusta según tu cuenta)*
+
+---
+
+## 📄 Licencia
+
+La plantilla base está sujeta a la licencia Creative Commons por HTML5 UP. El contenido propio (textos, imágenes, logotipo) pertenece a IGV Digital.
+
+---
