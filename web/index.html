@@ -15,8 +15,8 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
+  <base href="/">
   <!-- <base href="/"> -->
-  <base href="/igv-digital/web/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -49,14 +49,14 @@
 
 <body>
 
-  <<script>
+  <script>
     if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-    .register('/firebase-messaging-sw.js', { scope: '/' })
-    .then(() => console.log('Firebase SW registrado en /'))
-    .catch(e => console.error(e));
+      navigator.serviceWorker
+        .register('/firebase-messaging-sw.js', { scope: '/' })
+        .then(() => console.log('Firebase SW registrado en /'))
+        .catch(e => console.error(e));
     }
-    </script>
+  </script>
 
 </body>
 
