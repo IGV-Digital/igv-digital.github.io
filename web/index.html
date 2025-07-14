@@ -52,7 +52,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-        .register('/firebase-messaging-sw.js', { scope: '/' })
+        .register('/firebase-messaging-sw.js', { scope: './' })
         .then(() => console.log('Firebase SW registrado en /'))
         .catch(e => console.error(e));
     }
