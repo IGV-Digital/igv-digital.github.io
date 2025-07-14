@@ -43,7 +43,7 @@
 
   <!-- <script src="flutter.js" async></script> -->
   <script src="flutter_bootstrap.js" async></script>
-  <script src="main.dart.js" defer></script>
+  
 
   <title>crestcapnl_app</title>
 </head>
@@ -53,7 +53,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-        .register('/firebase-messaging-sw.js', { scope: './' })
+        .register('/firebase-messaging-sw.js', { scope: '/web/' })
         .then(() => console.log('Firebase SW registrado en /'))
         .catch(e => console.error(e));
     }
